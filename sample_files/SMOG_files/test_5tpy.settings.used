@@ -1,0 +1,26 @@
+ Starting options...
+ System will be given a buffer of (in A): 
+   10.000000000000000        10.000000000000000        10.000000000000000     
+ Heterogeneous masses will be assigned to atoms.
+ End of options.
+
+ input pdb: test_5tpy.25576.pdb                          
+ output .top: test_5tpy.25576.pdb.top                      
+ output .gro: test_5tpy.25576.pdb.gro                      
+ output .ndx: test_5tpy.25576.pdb.ndx                      
+ level of graining: All-Atom  
+ type of contacts: Cut-off
+ contact cutoff, protein:    4.0000000000000000     
+ contact cutoff, nucleic:    4.0000000000000000     
+ contact cutoff, nucleic-protein:    4.0000000000000000     
+ contact cutoff, w/ligand:    4.0000000000000000     
+ sequence distance min, protein:            3
+ sequence distance min, nucleic:            0
+ contact/dihedral ratio:    2.0000000000000000     
+ backbone/sidechain ratio, protein:    2.0000000000000000     
+ sidechain/backbone ratio, nucleic:    1.0000000000000000     
+ relative strength of protein dihedrals:    1.0000000000000000     
+ relative strength of NA dihedrals:    1.0000000000000000     
+ relative strength of ligand dihedrals:    1.0000000000000000     
+ atom sigma:    2.5000000000000000     
+ repulsive epsilon:   1.00000000000000002E-002
