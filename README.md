@@ -16,7 +16,7 @@ The package contains a conversion script and the source code of LAMMPS extension
 
 CONVERSION SCRIPT
 
-The code of the conversion tool can be freely used, changed and redistributed for ACademic use as long as this file and the header of the code are included.
+The code of the conversion tool can be freely used, changed and redistributed for Academic use as long as this file and the header of the code are included.
 
 
 The script converts SMOG input and data files from GROMACS format to LAMMPS format.
