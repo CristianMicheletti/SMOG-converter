@@ -165,8 +165,8 @@ print ""
 print ""
 print "Dihedral Coeffs"
 print "#id numangolidiedro(2) K1 n(davanti phi1 ) phi1 K3 n(davanti phi3) phi3"
-for(i=1;i<=ndp;i++)print i,"fourier",2,prop_Kd[i]*ENERGY_RESCALING_FACTOR,1,prop_phi1[i],prop_Kd3[i]*ENERGY_RESCALING_FACTOR,3,prop_phi3[i]
-for(i=1;i<=ndi;i++)print i+ndp,"fourier",1,Kchi[i]*ENERGY_RESCALING_FACTOR,1,chi0[i]+180;
+for(i=1;i<=ndp;i++)print i,2,prop_Kd[i]*ENERGY_RESCALING_FACTOR,1,prop_phi1[i],prop_Kd3[i]*ENERGY_RESCALING_FACTOR,3,prop_phi3[i]
+for(i=1;i<=ndi;i++)print i+ndp,1,Kchi[i]*ENERGY_RESCALING_FACTOR,1,chi0[i]+180;
 print ""
 print "Dihedrals"
 print ""
