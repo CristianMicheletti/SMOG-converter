@@ -22,8 +22,8 @@ variable		C12 equal ${ep_NC}*${cut_off}^12
 pair_style	lj/smog  15
 
 read_data	data_file.lammps
-#read_restart restart_file.6000
-#restart 1000000 restart_file.*
+#read_restart restart_file.1000000
+restart 1000000 restart_file.*
 
 pair_coeff      * * ${C12} 0.
 pair_coeff	 1492 1505 1.37398e+06 747.832
@@ -3252,17 +3252,11 @@ fix             2 all langevin ${temp} ${temp} 2000 ${rand}
 # Remove center of mass displacements
 #fix 		3 all momentum 100 linear 1 1 1 angular
 
-#repulsive interaction with wall (xxx NC epsilon and sigma and cutoff)
-#fix 12 all   wall/region  nanopore  lj126 1. 1. 1.12246152962189
-#pulling inside pore if particle is inside region
-#fix 14 all    addforce  0. 0. xxxforcevalueofpullingxxx  region nanoporepull
-
 dump            1 all custom 1000 dump.lammpstrj id type x y z
 dump_modify 1 sort id   append yes
 dump_modify     1 sort id
 #thermo_style	custom step temp etotal
 thermo 		10000
-#restart         1000000 restart
 
 #minimize      0.0 1.0e-8 1000 100000
 run		1000000
