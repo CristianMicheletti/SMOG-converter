@@ -1,12 +1,3 @@
-/*
-
-LAMMPS custom extension for SMOG simulations
-by A. Suma and L. Coronel
-v 1.0
-May 9, 2020
-
-
-*/
 /* ----------------------------------------------------------------------
    LAMMPS - Large-scale Atomic/Molecular Massively Parallel Simulator
    http://lammps.sandia.gov, Sandia National Laboratories
@@ -21,7 +12,8 @@ May 9, 2020
 ------------------------------------------------------------------------- */
 
 /* ----------------------------------------------------------------------
-   Contributing author: Paul Crozier (SNL)
+   LAMMPS custom extension for SMOG simulations
+   Contributing author: A. Suma, L. Coronel and C. Micheletti, v 1.0, May 9, 2020
 ------------------------------------------------------------------------- */
 
 #include <cmath>
