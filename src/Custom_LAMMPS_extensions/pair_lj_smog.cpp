@@ -13,7 +13,7 @@
 
 /* ----------------------------------------------------------------------
    LAMMPS custom extension for SMOG simulations
-   Contributing author: A. Suma, L. Coronel and C. Micheletti, v 1.0, May 9, 2020
+   Contributing author: A. Suma and L. Coronel, v 1.0, May 10, 2020
 ------------------------------------------------------------------------- */
 
 #include <cmath>
