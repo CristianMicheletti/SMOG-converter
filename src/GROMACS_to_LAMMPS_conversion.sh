@@ -164,7 +164,7 @@ for(i=1;i<=nangles;i++)print i,i,aid1[i],aid2[i],aid3[i]
 print ""
 print ""
 print "Dihedral Coeffs"
-print "#id num_dihedral_angles(2) K1 coeff_phi1  phi1 K3 coeff_phi3 phi3"
+print "#id num_dihedral_angles(2) K1 coeff1  phi1 K3 coeff3 phi3"
 for(i=1;i<=ndp;i++)print i,2,prop_Kd[i]*ENERGY_RESCALING_FACTOR,1,prop_phi1[i],prop_Kd3[i]*ENERGY_RESCALING_FACTOR,3,prop_phi3[i]
 for(i=1;i<=ndi;i++)print i+ndp,1,Kchi[i]*ENERGY_RESCALING_FACTOR,1,chi0[i]+180;
 print ""
