@@ -7,15 +7,20 @@ A. Suma, L. Coronel, G. Bussi and C. Micheletti
 "Directional translocation resistance of Zika xrRNA".
 _____________________________________________________
 
-Authors:
+AUTHORS:
+--------
 A. Suma, L. Coronel and C. Micheletti
 
-Description:
+CONTENT DESCRIPTION:
+--------------------
 
-The package contains a conversion script and the source code of LAMMPS extensions required to run SMOG simulations.
+The package contains:
+    a conversion script and 
+    the source code of LAMMPS extensions required to run SMOG simulations.
 
-CONVERSION SCRIPT
 
+Conversion script
+-----------------
 The code of the conversion tool can be freely used, changed and redistributed for Academic use as long as this file and the header of the code are included.
 
 
@@ -42,10 +47,9 @@ will process files "test.gro" and "test.top" and will convert them to the output
 
 
 
-CUSTOM LAMMPS EXTENSIONS
+Custom LAMMPS extensions
+------------------------
 
 The provided custom Lammps extension can be compiled along with the other source files of LAMMPS.
 
-
-END.
-----
+END
