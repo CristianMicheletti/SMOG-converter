@@ -2,9 +2,9 @@
 converter for SMOG input scripts and data files from GROMACS to LAMMPS
 Version 1.0 - May 9, 2020 
 
-Please cite in publications as:
-A. Suma, L. Coronel, G. Bussi and C. Micheletti
-_"Directional translocation resistance of Zika xrRNA"._
+    Please cite in publications as:
+    A. Suma, L. Coronel, G. Bussi and C. Micheletti
+    _"Directional translocation resistance of Zika xrRNA"._
 _____________________________________________________
 
 AUTHORS:
@@ -15,8 +15,9 @@ CONTENT DESCRIPTION:
 --------------------
 
 The package contains:
-    a conversion script and 
-    the source code of LAMMPS extensions required to run SMOG simulations.
+    
+    - the conversion script
+    - the source code of LAMMPS extensions required to run SMOG simulations.
 
 
 Conversion script
@@ -36,14 +37,16 @@ The output script/data files are for LAMMPS simulations with the style "real", w
     forces=Kcal/(mol Angstroms)
     time=fs
 
-By default the integration time step is set equal to 2fs, the damp coefficient is equal to 2ps and the masses, which are expressed in g/mol or amu units, are all set to the uniform value of 16.0, even if the "heterogeneous masses" SMOG option was chosen. Appropriate heterogeneous masses can be directly set in the data file.
+By default the integration time step is set equal to 2fs, the damp coefficient is equal to 2ps and the masses, which are expressed in g/mol or amu units, are all set to the uniform value of 16.0.
+This occurs even if the "heterogeneous masses" SMOG option is chosen. 
+Appropriate heterogeneous masses can be directly set in the data file.
 
 
 Sample usage of the conversion script
 
 The shell command:
     bash GROMACS_to_LAMMPS_conversion.x test
-will process files "test.gro" and "test.top" and will convert them to the output files "input_script.lammps" and "data_file.lammps"
+will process files *test.gro* and *test.top* and will convert them to the output files *input_script.lammps* and *data_file.lammps*.
 
 
 
