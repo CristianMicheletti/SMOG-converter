@@ -4,7 +4,7 @@ Version 1.0 - May 9, 2020
 
 Please cite in publications as:
 A. Suma, L. Coronel, G. Bussi and C. Micheletti
-"Directional translocation resistance of Zika xrRNA".
+_"Directional translocation resistance of Zika xrRNA"._
 _____________________________________________________
 
 AUTHORS:
@@ -29,12 +29,12 @@ Notice that SMOG input files must be created with the "cut off" contact matrix o
 
 The output script/data files are for LAMMPS simulations with the style "real", where physical quantities are expressed as:
 
-distances=Angstroms
-masses=g/mol
-temperature=K
-energies=Kcal/mol
-forces=Kcal/(mol Angstroms)
-time=fs
+    distances=Angstroms
+    masses=g/mol
+    temperature=K
+    energies=Kcal/mol
+    forces=Kcal/(mol Angstroms)
+    time=fs
 
 By default the integration time step is set equal to 2fs, the damp coefficient is equal to 2ps and the masses, which are expressed in g/mol or amu units, are all set to the uniform value of 16.0, even if the "heterogeneous masses" SMOG option was chosen. Appropriate heterogeneous masses can be directly set in the data file.
 
@@ -52,4 +52,5 @@ Custom LAMMPS extensions
 
 The provided custom Lammps extension can be compiled along with the other source files of LAMMPS.
 
+_____________________________________________________
 END
