@@ -4,7 +4,7 @@ Version 1.0 - May 9, 2020
 
     Please cite in publications as:
     A. Suma, L. Coronel, G. Bussi and C. Micheletti
-    _"Directional translocation resistance of Zika xrRNA"._
+    "Directional translocation resistance of Zika xrRNA".
 _____________________________________________________
 
 AUTHORS:
