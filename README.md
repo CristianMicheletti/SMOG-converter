@@ -1,4 +1,4 @@
-# SMOG_converter
+# SMOG converter
 converter for SMOG input scripts and data files from GROMACS to LAMMPS
 Version 1.0 - May 9, 2020 
 
