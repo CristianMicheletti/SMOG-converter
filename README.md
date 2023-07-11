@@ -53,7 +53,9 @@ will process files *test.gro* and *test.top* and will convert them to the output
 Custom LAMMPS extensions
 ------------------------
 
-The provided custom Lammps extension can be compiled along with the other source files of LAMMPS.
+LAMMPS simulations require an executable compiled with this custom extension for the SMOG model. 
+The files need to be included in the "src" folder of the  22Aug18 version of LAMMPS to compile the appropriate lammps executable, lmp_mpi
+
 
 _____________________________________________________
 END
