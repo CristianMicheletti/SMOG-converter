@@ -54,7 +54,7 @@ Custom LAMMPS extensions
 ------------------------
 
 LAMMPS simulations require an executable compiled with this custom extension for the SMOG model. 
-The files need to be included in the "src" folder of the  22Aug18 version of LAMMPS to compile the appropriate lammps executable, lmp_mpi
+The files need to be included in the "src" folder of the  22Aug18 version of LAMMPS to compile the appropriate lammps executable.
 
 
 _____________________________________________________
